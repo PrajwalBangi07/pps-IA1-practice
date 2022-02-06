@@ -10,11 +10,11 @@ void cmp(int a,int b,int c ,int *large)
   {
     *large=1;
   }
-  else if(b>a  && b>c)
+  else if(b>c)
   {
     *large=2;
   }
-  else if(c>a && c>b)
+  else if(c>b)
   {
     *large=3;
   }
